@@ -32,5 +32,5 @@ shortlist_table <- datatable(dat_clean, rownames = FALSE,
 
 
 #create htmlwidget object with neighborhood score table
-saveWidget(shortlist_table, "//FILESHARE/projects/Azavea_SummerOfMaps/documents/2018/project_descriptions/2018_summerofmaps_shortlist/2018_shortlist_table.html", selfcontained = FALSE, libdir = "src")
+saveWidget(shortlist_table, "//FILESHARE/projects/Azavea_SummerOfMaps/documents/2018/project_descriptions/2018_summerofmaps_shortlist/docs/2018_shortlist_table.html", selfcontained = FALSE, libdir = "src")
 
